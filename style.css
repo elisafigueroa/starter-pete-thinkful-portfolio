@@ -21,6 +21,45 @@ header {
   text-align: center;
 }
 
+.headerElements {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+  justify-items: center; 
+}
+
+/* About */
+.center {
+  text-align: center;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  text-align: left;
+}
+
+.section2 {
+  text-align: left;
+}
+
+/* Portfolio section */
+#portfolio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#portfolio p {
+  text-align: center;
+  size: 14px;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -29,7 +68,7 @@ div {
 }
 
 article {
-  padding: 50px 0;
+  padding: 30px 0 20px;
 }
 
 article div {
