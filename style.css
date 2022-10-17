@@ -57,8 +57,19 @@ header {
 
 #portfolio p {
   text-align: center;
-  size: 14px;
+  font-size: 15px;
+} 
+
+.portfolioH2 {
+  margin: 0 0 -50px 0;
 }
+
+.item {
+  flex: 1;
+  padding: 5px;
+  margin: 2px;
+}
+
 
 /* Containers */
 div {
@@ -68,7 +79,7 @@ div {
 }
 
 article {
-  padding: 20px 0 20px;
+  padding: 50px 0;
 }
 
 article div {
@@ -114,4 +125,8 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.hr1 {
+  margin: 0px 0px 70px 0
 }
